@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bæredygtighed er sundt og billigt</title>
+    <link rel="stylesheet" href="Css/style.css">
+  
+</head>
+<body>
+
+    <!-- 
+  Code snippet adapted from [claude] 
+  URL: https://claude.site/artifacts/ae83ecc9-97b8-4729-8b1f-ac2d97283939
+-->
+    <nav>
+        <div class="logo">
+            <img src="Css/img/slogo3.png" alt="sustainability Logo" style="width:200px;height:200px;">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Bæredygtighed</a></li>
+            <li><a href="#About">Events</a></li>
+            <li><a href="#Articles">Artikles</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+        <div class="hamburger">☰</div>
+    </nav>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+  <!-- 
+  Code snippet adapted from [claude] 
+  URL:https://claude.site/artifacts/8ecc2fd9-9c93-4692-8885-137612eb8b92
+-->
+
+
+    <main class id="container">
+       
+        <!-- first 3 column layout  -->
+         <h2 id="home">Bæredygtighed:</h2>
+         <section class="grid-section">
+            <div class="card">
+                <img src="Css/img/sustainabillitymeaning.png" alt="sustainabillit ymeaning">
+                <h2>Bæredygtigheds betydning</h2>
+                <p>Bæredygtighed kan har forskellige betydninger for forskellige mennesker,<br> men for studerende bæredygtighed har endnu en bredere mening...</p>
+                <p>læse mere om det</p>
+            </div>
+            <div class="card">
+                <img src="Css/img/sustainabiltymodel.png" alt=" sustainabiltymodel">
+                <h2>Card 2</h2>
+                <p>This is a responsive card that will adjust based on screen size.</p>
+            </div>
+            <div class="card">
+                <img src="Css/img/sustainableenvironment.png" alt="sustainable environment">
+                <h2>Card 3</h2>
+                <p>This is a responsive card that will adjust based on screen size.</p>
+            </div>
+        </section>
+   
+        <!-- end of the first 3 column layout -->
+
+            <!-- Second 3 column layout  -->
+            <h2 id="About">Events</h2>
+        <section class="grid-section">
+            <div class="card">
+                <img src="Css/img/goodtogo.png" alt="good to go">
+                <h2>bæredygtig liv med Good to go</h2>
+                <p>This is a responsive card that will adjust based on screen size.</p>
+            </div>
+            <div class="card">
+                <img src="Css/img/sustainablehealth.png" alt="bæredygtig sund liv">
+                <h2>Bæredygtig sund liv </h2>
+                <p>This is a responsive card that will adjust based on screen size.</p>
+            </div>
+            <div class="card">
+                <img src="Css/img/digitaleducation.png" alt="digitale undervisnings hjælpemidler">
+                <h2> Digitale undervisnings hjælpemidler</h2>
+                <p>This is a responsive card that will adjust based on screen size.</p>
+            </div>
+        </section>
+        <!-- end of the second 3 column layout -->
+
+            <!-- Third 3 column layout  -->
+            <h2 id="Articles">Artikler</h2>
+        <section class="grid-section">
+            <div class="card">
+                <img src="Css/img/articles.png" alt="goodtogo">
+                <h2>Card 1</h2>
+                <p>This is a responsive card that will adjust based on screen size.</p>
+            </div>
+            <div class="card">
+                <img src="Css/img/sustainablehealth.png" alt="sustainable healthy life style">
+                <h2>Card 2</h2>
+                <p>This is a responsive card that will adjust based on screen size.</p>
+            </div>
+            <div class="card">
+                <img src="Css/img/events.png" alt="events">
+                <h2>Card 3</h2>
+                <p>This is a responsive card that will adjust based on screen size.</p>
+            </div>
+        </section>
+        <!-- end of the third  3 column layout -->
+        
+        
+        <!-- Code snippet adapted from [claude] URL:https://claude.site/artifacts/b36e01c4-4741-45b5-8154-6106ba449c60 -->
+        
+       <!-- start on the contakt form -->
+       
+       <h2 id="contact">Kontakt os:</h2>
+        <div class=" contactcontainer">
+           
+            <form class="contact-form">
+                
+                <h2 class="form-title">Contact Us</h2>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="required" for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label class="required" for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label class="required" for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+    
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">
+                        <option value="">Select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Technical Support</option>
+                        <option value="billing">Billing Question</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label class="required" for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+    
+               <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+
+         <!-- end of the contakt form -->
+         
+
+         <!--Code snippet adapted from [claude] URL:   https://claude.site/artifacts/ee0f5c14-c20d-4b6b-8b5c-4774cf0c98df-->
+         
+       
+      
+         <!-- start of footer -->
+
+         <div class="footer">
+            <div class="footer-column">
+                <h4>Om os</h4>
+                <p>Vi er en ny byggede forening, som vil gerne støtte miljøet mod klima forandringer</p>
+            </div>
+            <div class="footer-column">
+                <h4>Kontact os:</h4>
+                <p>Email: example@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+        <!-- end of footer -->
+
+        </main>
+     
+
+</body>
+
+</html>
